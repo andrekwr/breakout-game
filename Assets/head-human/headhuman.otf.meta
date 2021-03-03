@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 4925b9e8d39d59d4eada1caa8c62bad8
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Head Human
+  fontNames:
+  - Head Human
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: a8ac9a67e8a5eba4ea058c5acbafef2e, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
