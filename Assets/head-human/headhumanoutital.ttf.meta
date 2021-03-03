@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 0c6de0c400021f749990f13b7ff00841
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Head Human Outline Italic
+  fontNames:
+  - Head Human Outline Italic
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 240bcfdb9cf691f41a2c69a29a5449b5, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

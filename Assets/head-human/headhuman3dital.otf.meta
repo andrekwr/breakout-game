@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 6ed510fd73fb90d4aa917b0455861e0e
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Head Human 3D Italic
+  fontNames:
+  - Head Human 3D Italic
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 337c0acd14983c840a3c36c93b935bdd, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 5927cbd52b5f44b479dfd48bc5f22325
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Head Human 3D
+  fontNames:
+  - Head Human 3D
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: c456cb288b7af5d48b24f797e721a162, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

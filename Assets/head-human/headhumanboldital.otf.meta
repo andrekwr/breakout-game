@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: db280ac5cea304f4ebb9066e44a0a809
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Head Human Bold Italic
+  fontNames:
+  - Head Human Bold Italic
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 60f4ea4e69687f446b8e28264671989a, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

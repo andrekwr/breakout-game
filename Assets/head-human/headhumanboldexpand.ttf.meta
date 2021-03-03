@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 86c5cbac899a39c4b8b7ec2daba8e516
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Head Human Bold Expanded
+  fontNames:
+  - Head Human Bold Expanded
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 758842f8af6a7a9418465e4f3cf70cb5, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

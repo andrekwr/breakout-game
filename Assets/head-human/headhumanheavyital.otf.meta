@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 7a5aa41bd8bf33f4ead2bd45d9eaf22c
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Head Human Heavy Italic
+  fontNames:
+  - Head Human Heavy Italic
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 3a9b8ac899feec34992d1306be93ec1d, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 83eb27821ba63d14ab2b6f093ebe0010
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Head Human Semi-Italic
+  fontNames:
+  - Head Human Semi-Italic
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: a2a83cc4d1afd8246b1383832e38841c, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

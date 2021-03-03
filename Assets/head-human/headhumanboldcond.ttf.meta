@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: eb2315e7806c9ac419711d2b0800b4d7
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Head Human Bold Condensed
+  fontNames:
+  - Head Human Bold Condensed
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: b570ca81df4a8f64d88e1e11e3292556, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

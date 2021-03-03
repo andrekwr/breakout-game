@@ -6,16 +6,25 @@ public class MovimentoBola : MonoBehaviour
 {
     [Range(1, 15)]
     public float velocidade = 5.0f;
+    public int space = 0;
     private Vector3 direcao;
     GameManager gm;
+    public GameObject heart1, heart2, heart3;
+    
     void Start()
     {
-
+        
         float dirX = Random.Range(-5.0f, 5.0f);
         float dirY = Random.Range(1.0f, 5.0f);
         direcao = new Vector3(dirX, dirY).normalized;
+        
+
 
         gm = GameManager.GetInstance();
+
+        heart1.gameObject.SetActive(true);
+        heart2.gameObject.SetActive(true);
+        heart3.gameObject.SetActive(true);
         
     }
 
@@ -23,7 +32,17 @@ public class MovimentoBola : MonoBehaviour
     void Update()
     {
         if (gm.gameState != GameManager.GameState.GAME) return;
-        transform.position += direcao * Time.deltaTime * velocidade;
+        if (Input.GetKey("space") && space == 0) {
+            transform.position += direcao * Time.deltaTime * velocidade;
+            space = 1;
+
+        }
+
+        if (space == 1) {
+            transform.position += direcao * Time.deltaTime * velocidade;
+        }
+        
+       
 
         Vector2 posicaoViewport = Camera.main.WorldToViewportPoint(transform.position);
 
@@ -47,6 +66,7 @@ public class MovimentoBola : MonoBehaviour
         //Debug
         Debug.Log($"Vidas: {gm.vidas} \t | \t Pontos: {gm.pontos}");
         
+        
     }
 
     private void Reset(){
@@ -59,6 +79,33 @@ public class MovimentoBola : MonoBehaviour
         direcao = new Vector3(dirX, dirY).normalized;
 
         gm.vidas--;
+
+        switch(gm.vidas){
+            case 3:
+                heart1.gameObject.SetActive(true);
+                heart2.gameObject.SetActive(true);
+                heart3.gameObject.SetActive(true);
+                break;
+            case 2:
+                heart1.gameObject.SetActive(true);
+                heart2.gameObject.SetActive(true);
+                heart3.gameObject.SetActive(false);
+                break;
+            case 1:
+                heart1.gameObject.SetActive(true);
+                heart2.gameObject.SetActive(false);
+                heart3.gameObject.SetActive(false);
+                break;
+            case 0:
+                heart1.gameObject.SetActive(false);
+                heart2.gameObject.SetActive(false);
+                heart3.gameObject.SetActive(false);
+                break;
+            
+        }
+
+
+
     }
 
     void OnTriggerEnter2D(Collider2D col)

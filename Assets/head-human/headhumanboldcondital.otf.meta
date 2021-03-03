@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 7c80d706a5335e647a20a73a732c7dda
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Head Human Bold Condensed Ital
+  fontNames:
+  - Head Human Bold Condensed Ital
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 0aad287c446f62145b867fb4e1fa2f47, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

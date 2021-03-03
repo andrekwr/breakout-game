@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 3647258e074c8aa48bc8e259b8068dbe
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Head Human Expanded Italic
+  fontNames:
+  - Head Human Expanded Italic
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 652a366a1ec53594db745fd03879d810, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

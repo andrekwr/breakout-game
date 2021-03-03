@@ -22,6 +22,7 @@ public class GameManager
     public GameState gameState { get; private set; }
     public int vidas;
     public int pontos;
+    
 
     private GameManager()
     {
